@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
     <title>Pemesanan Tiket Bis</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -24,6 +27,10 @@
     </div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eos, porro sunt iste ipsam aliquid, numquam eaque
         architecto qui facere unde incidunt. Deleniti, aliquam unde sapiente exercitationem itaque accusamus provident.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quis sequi aliquid distinctio quam enim,
+        adipisci amet optio facilis nostrum necessitatibus pariatur quos eum, similique laborum ipsam dolorem temporibus
+        odio.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum maxime in explicabo similique laborum.
+        Ipsa, eos doloremque! Placeat sint natus repellat officia, modi unde est ullam vel minus, deleniti ex?
     </p>
     <div class="list">
         <ul>
@@ -42,6 +49,81 @@
         </ul>
     </div>
     <script src=" script.js"></script>
+    <h3>Jadwal keberangkatan</h3>
+    <div class="table">
+        <table border="1" cellpadding="5">
+            <tr>
+                <th>No</th>
+                <th>Rute Tujuan</th>
+                <th>Jam keberangkatan</th>
+                <th>Harga Tiket</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Solo</td>
+                <td>10.00</td>
+                <td>10.000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Yogyakarta</td>
+                <td>11.00</td>
+                <td>20.000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Semarang</td>
+                <td>12.00</td>
+                <td>30.000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bandung</td>
+                <td>13.00</td>
+                <td>40.000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Jakarta</td>
+                <td>14.00</td>
+                <td>50.000</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" colspan="4">Jadwal dapat berubah sewaktu-waktu</td>
+            </tr>
+        </table>
+    </div>
+    <div class="option">
+        <select name="Pembayaran" id="Pembayaran">
+            <option value="Cash">Pembayaran Cash</option>
+            <option value="Transfer">Pembayaran Transfer</option>
+            <option value="QRIS">Pembayaran QRIS</option>
+        </select>
+    </div>
+    <div class="center">
+        <div class="conForm center">
+            <h3>Formulir Pendaftaran</h3>
+            <form class="form">
+                <label for="nama">Nama Penumpang <input type="text" name="nama" id="nama"></label>
+                <label for="jumlah">Jumlah Penumpang <input type="number" name="jumlah" id="jumlah"></label>
+                <label for="telepon">Nomor Telepon <input type="phone" name="telepon" id="telepon"></label>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+    <div class="map-container">
+        <h3>Lokasi Kami</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4823760561485!2d106.79721397553453!3d-6.199913993787822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3003b2bec7f%3A0x6e328c4db8b97822!2stiket.com%20Jakarta%20office!5e0!3m2!1sid!2sid!4v1784683174331!5m2!1sid!2sid"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <footer>
+        <p>Untuk Informasi Lebih Lanjut, Silahkan Klik Link <a href="https://www.tiket.com/id-id"
+                target="_blank">Disini</a></p>
+
+    </footer>
+
 </body>
 
 </html>
