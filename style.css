@@ -81,7 +81,7 @@ header ul li:hover {
 }
 
 header ul li a {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
     text-decoration: none;
     color: var(--dark-blue);
@@ -318,6 +318,51 @@ section[id="booking"] {
 .booking-container input:hover {
     outline: none;
     border: 2px solid var(--light-blue);
+}
+
+.booking-container select {
+    width: 100%;
+    padding: 12px 18px;
+    background-color: #f5f5f5;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.booking-container select:focus {
+    outline: none;
+    border: 2px solid var(--light-blue);
+}
+
+.booking-container select:hover {
+    border: 2px solid var(--light-blue);
+}
+
+.booking-container input[type="submit"] {
+    padding: 12px 18px;
+    background-color: var(--light-blue);
+    border: none;
+    width: 20%;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--white);
+    transition: all 0.5s ease;
+    border: 2px solid white;
+}
+
+.booking-container input[type="submit"]:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: var(--dark-blue);
+}
+
+section[id="contact"] {
+    scroll-margin-top: 100px;
 }
 
 .contact {
