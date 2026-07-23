@@ -291,6 +291,13 @@ section[id="booking"] {
     padding: 10px;
 }
 
+.booking-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
 .booking-container label {
     font-size: 20px;
     font-weight: 400;
@@ -359,6 +366,48 @@ section[id="booking"] {
     cursor: pointer;
     scale: 1.1;
     background-color: var(--dark-blue);
+}
+
+/* Tiket Section */
+.tiket-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: var(--white);
+    border: 2px solid #ccc;
+    border-radius: 30px;
+}
+
+.tiket {
+    width: 100%;
+    padding: 30px;
+}
+
+.tiket h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--dark-blue);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.tiket p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black);
+    margin-bottom: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tiket p:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
 }
 
 section[id="contact"] {
